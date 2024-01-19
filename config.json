@@ -1,0 +1,9 @@
+{
+  "output_dim": 636,
+  "input_dim": 132,
+  "dropout_rate": 0.3,
+  "val_every": 100,
+  "log_every": 20,
+  "max_edge_types": 3,
+  "num_steps": 6
+}
