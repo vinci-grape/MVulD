@@ -4,9 +4,9 @@ Software vulnerabilities are the weaknesses in software systems, that leads to s
 
 In this paper, we propose MVulD+, a multi-modal-based function-level vulnerability detection approach, which utilizes multi-modal features of the function (i.e., text representation, graph representation, and image representation) to detect vulnerabilities. Specifically, MVulD+ utilizes a pre- trained model (i.e., UniXcoder) to learn the semantic information of the textual source code, employs the graph neural network to distill graph-based representation, and makes use of computer vision techniques to obtain the image representation while retaining the graph structure of the function. To investigate the effectiveness of MVulD+, we conduct a large-scale experiment (25,816 functions) by comparing it with eight state-of-the-art baselines. Experimental results demonstrate that MVulD+ improves the state-of-the-art baselines by 24.3%- 125.7%, 5.2%-31.4%, 40.6%-192.2%, and 22.3%-186.9% in terms of F1-score, Accuracy, Precision, and PR-AUC respectively.
 
-# Design of MVulD+
+# Overview of MVulD+
 
-![arc](MVulD+.pdf)
+![arc](MVulD+.png)
 <p align="center"> An overview architecture of MVulD+ </p> 
 
 MVulD+ consists of four four main phases:
